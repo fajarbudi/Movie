@@ -16,11 +16,11 @@ export default function Home() {
             <h1
               data-aos="zoom-in-left"
               data-aos-anchor-placement="bottom-bottom"
-              className="bg-primary ml-auto mr-2 sm:mr-20 text-center w-24 mt-10 rounded-lg shadow-md hover:bg-indigo-500">
+              className="ml-auto mr-2 sm:mr-20 text-center mt-10 bg-primary w-24 rounded-lg shadow-md hover:bg-indigo-500">
               Popular {">>"}
             </h1>
           </Link>
-          <div className="mt-2 flex flex-wrap justify-center gap-5 ">
+          <div className=" mt-2 flex flex-wrap justify-center gap-5 mb-4">
             <Popular />
           </div>
         </section>
