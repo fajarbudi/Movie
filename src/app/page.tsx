@@ -14,9 +14,9 @@ export default function Home() {
         <section id="Popular">
           <Link href="/Popular/1">
             <h1
-              data-aos="fade-left"
+              data-aos="zoom-in-left"
               data-aos-anchor-placement="bottom-bottom"
-              className="bg-primary ml-auto mr-20 text-center w-24 mt-10 rounded-lg shadow-md hover:bg-indigo-500">
+              className="bg-primary ml-auto mr-2 sm:mr-20 text-center w-24 mt-10 rounded-lg shadow-md hover:bg-indigo-500">
               Popular {">>"}
             </h1>
           </Link>
@@ -27,9 +27,9 @@ export default function Home() {
         <section id="TopRated">
           <Link href="TopRated/1">
             <h1
-              data-aos="fade-left"
+              data-aos="zoom-in-left"
               data-aos-anchor-placement="bottom-bottom"
-              className="ml-auto mr-20 text-center mt-10 bg-primary w-24 rounded-lg shadow-md hover:bg-indigo-500">
+              className="ml-auto mr-2 sm:mr-20 text-center mt-10 bg-primary w-24 rounded-lg shadow-md hover:bg-indigo-500">
               Top Rated {">>"}
             </h1>
           </Link>

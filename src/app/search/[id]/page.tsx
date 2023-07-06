@@ -62,8 +62,8 @@ export default function search({ params }: { params: { id: number } }) {
   return (
     <>
       <main>
-        <Navbar bg="bg-primary" />
-        <h1 className="bg-primary ml-auto mr-20 text-center w-24 mt-10 rounded-lg shadow-md">
+        <Navbar bg="backdrop-blur-sm bg-primary/80" position="sticky" />
+        <h1 className="bg-primary ml-auto mr-2 sm:mr-20 text-center w-24 mt-10 rounded-lg shadow-md">
           Search
         </h1>
         <section className="flex flex-wrap gap-5 justify-center ">
