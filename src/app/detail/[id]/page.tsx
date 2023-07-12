@@ -3,7 +3,7 @@ import Button from "@/app/component/Button";
 import { Rampart_One } from "next/font/google";
 const Font = Rampart_One({ subsets: ["latin"], weight: "400" });
 export default async function page({ params }: { params: { id: number } }) {
-  async function getSata() {
+  async function getData() {
     const res = await fetch(
       `${process.env.BASE_URL}/movie/${params.id}?api_key=${process.env.API_KEY}`
     );
@@ -11,7 +11,7 @@ export default async function page({ params }: { params: { id: number } }) {
   }
 
   async function search() {
-    const data = await getSata();
+    const data = await getData();
     return (
       <>
         <div className="satu">
