@@ -13,8 +13,7 @@ export default async function TopRated() {
       data-aos="flip-down"
       data-aos-anchor-placement="bottom-bottom"
       key={i}
-      className="card card-side bg-base-100 shadow-xl w-96 relative overflow-hidden "
-    >
+      className="card card-side bg-base-100 shadow-xl w-96 relative overflow-hidden ">
       <img src="/blurry1.svg" className="absolute -z-10 "></img>
       <figure>
         <img
@@ -29,15 +28,13 @@ export default async function TopRated() {
           data-aos="fade-right"
           data-aos-anchor-placement="bottom-bottom"
           data-aos-delay="500"
-          className="card-title"
-        >
+          className="card-title">
           {coba.title}
         </h2>
         <p
           data-aos="fade-right"
           data-aos-anchor-placement="bottom-bottom"
-          data-aos-delay="500"
-        >
+          data-aos-delay="500">
           Rating : {coba.vote_average}
         </p>
         <div className="card-actions justify-end">
@@ -46,8 +43,7 @@ export default async function TopRated() {
               data-aos="zoom-in"
               data-aos-anchor-placement="bottom-bottom"
               data-aos-delay="500"
-              className="btn btn-primary"
-            >
+              className="btn btn-primary">
               Detail
             </button>
           </Link>

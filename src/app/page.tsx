@@ -1,6 +1,6 @@
-import Navbar from "./component/navbar";
-import Popular from "./component/popular";
-import TopRated from "./component/topRated";
+import Navbar from "@/components/navbar";
+import Popular from "@/components/popular";
+import TopRated from "@/components/topRated";
 import Link from "next/link";
 export const metadata = {
   title: "Movie",

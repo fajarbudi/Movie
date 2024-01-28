@@ -1,5 +1,5 @@
-import Navbar from "../../component/navbar";
-import Button from "@/app/component/Button";
+import Navbar from "@/components/navbar";
+import Button from "@/components/Button";
 import { Rampart_One } from "next/font/google";
 const Font = Rampart_One({ subsets: ["latin"], weight: "400" });
 export default async function page({ params }: { params: { id: number } }) {
