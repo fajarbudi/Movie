@@ -15,7 +15,7 @@ export default async function Popular() {
       data-aos="flip-down"
       data-aos-anchor-placement="bottom-bottom"
       key={i}
-      className="card card-side bg-base-100 shadow-xl w-96 relative overflow-hidden ">
+      className="card card-side bg-base-100 shadow-xl relative overflow-hidden ">
       <img src="/blurry1.svg" className="absolute -z-10 "></img>
       <figure>
         <img

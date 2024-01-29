@@ -21,7 +21,7 @@ export default async function page({ params }: { params: { id: number } }) {
         </div>
 
         <div className="hero min-h-screen bg-gradient-to-t from-black from-40% absolute top-0">
-          <div className="hero-content flex-col lg:flex-row-reverse ">
+          <div className="hero-content flex-col lg:flex-row-reverse detail">
             <img
               data-aos="fade-down-left"
               data-aos-anchor-placement="top-center"

@@ -16,7 +16,7 @@ export default function Popular({ params }: { params: { id: number } }) {
         data-aos="flip-down"
         data-aos-anchor-placement="bottom-bottom"
         key={i}
-        className="card card-side bg-base-100 shadow-xl w-96 relative overflow-hidden ">
+        className="card card-side bg-base-100 shadow-xl relative overflow-hidden ">
         <img src="/blurry1.svg" className="absolute -z-10 "></img>
         <figure>
           <img
@@ -76,12 +76,13 @@ export default function Popular({ params }: { params: { id: number } }) {
       <main>
         <Navbar bg=" backdrop-blur-sm bg-primary/80" position="sticky" />
 
-        <section className="mt-2 flex flex-wrap justify-center gap-5 ">
+        <div className="grid content-between min-h-[93vh]">
+        <section className="m-10 grid md:grid-cols-2 xl:grid-cols-3 dekstop:grid-cols-6 gap-4 ">
           {Popular}
         </section>
 
         {/* Pagination */}
-        <div className=" flex justify-center mt-6 mb-6">
+        <div className=" flex justify-center mt-6 mb-6 ">
           <div className="grid bg-primary content-center rounded-l-lg border-r-2">
             <Link className="btn btn-ghost" href={`/Popular/${Prev}`}>
               Prev
@@ -105,6 +106,7 @@ export default function Popular({ params }: { params: { id: number } }) {
               Next
             </Link>
           </div>
+        </div>
         </div>
       </main>
     </>

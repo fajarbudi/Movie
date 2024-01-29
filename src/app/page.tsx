@@ -20,7 +20,7 @@ export default function Home() {
               Popular {">>"}
             </h1>
           </Link>
-          <div className=" mt-2 flex flex-wrap justify-center gap-5 mb-4">
+          <div className=" mx-10 my-4 grid md:grid-cols-2 xl:grid-cols-3 dekstop:grid-cols-6 gap-4">
             <Popular />
           </div>
         </section>
@@ -33,7 +33,7 @@ export default function Home() {
               Top Rated {">>"}
             </h1>
           </Link>
-          <div className=" mt-2 flex flex-wrap justify-center gap-5 mb-4">
+          <div className="mx-10 my-4 grid md:grid-cols-2 xl:grid-cols-3 dekstop:grid-cols-6 gap-4">
             <TopRated />
           </div>
         </section>

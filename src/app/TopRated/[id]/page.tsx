@@ -76,7 +76,8 @@ export default function Popular({ params }: { params: { id: number } }) {
       <main>
         <Navbar bg=" backdrop-blur-sm bg-primary/80" position="sticky" />
 
-        <section className="mt-2 flex flex-wrap justify-center gap-5 ">
+        <div className="grid content-between min-h-[93vh]">
+        <section className="m-10 grid md:grid-cols-2 xl:grid-cols-3 dekstop:grid-cols-6 gap-4">
           {hasil}
         </section>
 
@@ -106,6 +107,7 @@ export default function Popular({ params }: { params: { id: number } }) {
               Next
             </Link>
           </div>
+        </div>
         </div>
       </main>
     </>
